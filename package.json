@@ -1,0 +1,30 @@
+{
+  "name": "notion-blog",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [],
+  "author": "fiammanda",
+  "license": "AGPL",
+  "dependencies": {
+    "@types/node": "^22.13.11",
+    "date-fns": "^3.6.0",
+    "dotenv": "^16.5.0",
+    "next": "^15.3.2",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "typescript": "^5.4.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "19.1.5"
+  }
+}
