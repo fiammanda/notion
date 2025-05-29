@@ -85,6 +85,14 @@ p {
   margin: 0;
   text-align: justify;
 }
+blockquote {
+  margin: 1.5rem 0 1.5rem .125rem;
+  padding: 0 0 0 .625rem;
+  border-left: .25rem solid var(--color-neutral-050);
+  text-align: justify;
+  transition: .2s ease-in;
+  transition-property: border-color;
+}
 ul {
   margin: 1.5rem 0;
   padding: 0 0 0 1rem;
@@ -167,7 +175,7 @@ nav {
   content: "article";
 }
 [data-type="book"]::before {
-  content: "book_4";
+  content: "shelves";
 }
 [data-type="show"]::before {
   content: "videocam";
@@ -188,7 +196,7 @@ nav {
   width: 1em;
   padding: 0 .0625em;
   font: 1em/calc(1em + 1px) "Material Symbols Rounded";
-  vertical-align: -16%;
+  vertical-align: -12%;
 }
 [data-icon="star-fill"]::before {
   content: "star";
@@ -502,7 +510,7 @@ article a {
 .journal-meta .journal-rate::before {
   font-size: 1.0625rem;
   line-height: calc(1.0625rem + 1px);
-  vertical-align: -20%;
+  vertical-align: -18%;
 }
 .journal-summary {
   font-size: .875rem;

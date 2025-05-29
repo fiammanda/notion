@@ -8,7 +8,7 @@ export async function getStaticPaths() {
     paths: Object.keys(data.type).map(type => ({
       params: { type: Site.type[type] }
     })),
-    fallback: false
+    fallback: 'blocking'
   }
 }
 
