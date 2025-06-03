@@ -6,7 +6,7 @@ export default function Document() {
     <Html lang={Site.lang}>
       <Head>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:wght,FILL@400,0..1&display=block" crossOrigin="anonymous" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=LXGW+WenKai+TC&display=swap" />
         <link rel="stylesheet" href="https://rsms.me/inter/inter.css" crossOrigin="anonymous" />
         <script src="/assets/script.js" defer></script>
       </Head>

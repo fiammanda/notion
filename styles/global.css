@@ -86,12 +86,15 @@ p {
   text-align: justify;
 }
 blockquote {
-  margin: 1.5rem 0 1.5rem .125rem;
-  padding: 0 0 0 .625rem;
-  border-left: .25rem solid var(--color-neutral-050);
+  margin: .75rem 0;
+  padding: .5rem 0;
+  font-family: "LXGW WenKai TC";
   text-align: justify;
+  color: var(--color-secondary-030);
+  border-top: 1px solid var(--color-secondary-050);
+  border-bottom: 1px solid var(--color-secondary-050);
   transition: .2s ease-in;
-  transition-property: border-color;
+  transition-property: color, border-color;
 }
 ul {
   margin: 1.5rem 0;
@@ -542,6 +545,12 @@ nav a[rel="next"] {
   }
 }
 
+section ul {
+  text-align: justify;
+}
+ul ul {
+  margin: 0;
+}
 .task {
   list-style-type: none;
 }
@@ -730,6 +739,9 @@ nav a[rel="next"] {
   --color-primary-080: hsl(var(--ch), 80%, var(--cl080));
   --color-primary-090: hsl(var(--ch), calc(80% + 10% * var(--csm)), var(--cl090));
   --color-primary-095: hsl(var(--ch), calc(80% + 10% * var(--csm)), var(--cl095));
+  --color-secondary-030: hsl(var(--ch), calc(15% - 5% * var(--csm)), var(--cl030));
+  --color-secondary-050: hsl(var(--ch), 15%, var(--cl050));
+  --color-secondary-080: hsl(var(--ch), calc(15% + 5% * var(--csm)), var(--cl080));
   --font-family: "Inter", -apple-system, "MiSans", "HarmonyOS Sans", "Source Han Sans SC", "Noto Sans CJK SC", "思源黑体", "Noto Sans SC", sans-serif;
   --font-feature: "ss01", "cv01", "cv06", "cv11";
 }
