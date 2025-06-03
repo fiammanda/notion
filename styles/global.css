@@ -88,7 +88,7 @@ p {
 blockquote {
   margin: .75rem 0;
   padding: .5rem 0;
-  font-family: "LXGW WenKai TC";
+  font-family: "LXGW WenKai", "LXGW WenKai TC", var(--font-family);
   text-align: justify;
   color: var(--color-secondary-030);
   border-top: 1px solid var(--color-secondary-050);
